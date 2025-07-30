@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto EggBot</title>
+  <title>Proyecto Plotter de huevos</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
-    <h1>Proyecto EggBot</h1>
+    <h1>Proyecto Plotter de huevos</h1>
     <p>Desarrollo y documentación del prototipo</p>
     <nav>
       <ul>
@@ -16,7 +16,7 @@
         <li><a href="#objetivos">Objetivos</a></li>
         <li><a href="#materiales">Materiales</a></li>
         <li><a href="#componentes">Componentes</a></li>
-        <li><a href="#desarrollo">Desarrollo</a></li>
+        <li><a href="#armado">Armado</a></li>
         <li><a href="#resultados">Resultados</a></li>
         <li><a href="#conclusiones">Conclusiones</a></li>
         <li><a href="#anexos">Anexos</a></li>
@@ -64,12 +64,12 @@
 
     <section id="impresos">
       <h2>Componentes Impresos</h2>
-      <a>Descargar archivos stl</a>
+      <a href="#">Descargar archivos stl</a>
     </section>
 
-    <section id="desarrollo">
+    <section id="armado">
       <h2>Armado del Proyecto</h2>
-      <h3>Paso 1: Armado de la bisagra</h3>
+      <h3>Paso 1: Armado de la visagra</h3>
       <h3>Paso 2: Preparar el servo</h3>
       <h3>Paso 3: Unir el servo a la tijera</h3>
       <h3>Paso 4: Agregar el tornillo al porta marcador</h3>
@@ -91,16 +91,49 @@
       <h4>Paso 3: Hacer los aguejeros</h4>
       <h4>Paso 4: Unir las partes nuevamente</h4>
       <h3>Paso 8: Electronicos</h3>
+      <h4>Paso 1: Unir el arduino a la base</h4>
+      <h4>Paso 2: Unir el CNC shield</h4>
+      <h4>Paso 3: Jumpers</h4>
+      <h4>Paso 4: Drivers de los motores</h4>
+      <h4>Paso 5: Servo</h4>
+      <h4>Paso 6: Conectar los motores</h4>
+      <h4>Paso 7: Fuente de alimentacion</h4>
     </section>
 
     <section id="resultados">
       <h2>Resultados</h2>
-      <p>Qué se logró, qué funcionó, qué falló, y ejemplos de pruebas realizadas.</p>
+      <p>Luego del armado de la maquina y al ponerla a prueba surgieron diversos problemas que se fueron solucionando. Se detallan a continuacion:</p>
+      <table>
+        <thead>
+          <th>Problema</th>
+          <th>Solucion</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sujecion del huevo</td>
+            <td>Agregar cinta en los extremos</td>
+          </tr>
+          <tr>
+            <td>Microfibra vibra al moverse</td>
+            <td>Ajustar mas el tornillo de la visagra</td>
+          </tr>
+          <tr>
+            <td>Eje X descentrado</td>
+            <td>Ajustar posicion del motor en base y agregar suplemento para la altura</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Cambios a realizar en lo inmediato:</p>
+      <ul>
+        <li>- Quitar suplementos en eje X y agregar tornillos de 8mm</li>
+        <li>- Cambiar listones de base por uno mas ancho</li>
+        <li>- Sustituir tornillos de motor YZ para permitir alinear mejor</li>
+      </ul>
     </section>
 
     <section id="conclusiones">
       <h2>Conclusiones</h2>
-      <p>Reflexión sobre el proceso, aprendizajes obtenidos y mejoras posibles.</p>
+      <p>Encontrar las piezas fue una odisea, pero el armado del proyecto fue entretenido. Esta muy bueno para ver como funciona una maquina CNC y para realizar trabajos sencillos. Una mejora a realizar es realizar una caja para proteger la electronica.</p>
     </section>
 
     <section id="anexos">
